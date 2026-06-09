@@ -1,83 +1,89 @@
 <div align="center">
-  <img alt="Dihan Wang profile banner" width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=210&color=0:050505,55:111827,100:1f2937&text=Dihan%20Wang&fontAlign=50&fontAlignY=42&fontColor=f8fafc&fontSize=44&desc=Robotics%20software%20for%20perception%2C%20control%2C%20and%20embodied%20AI&descAlign=50&descAlignY=64&descSize=16">
+  <img src="./assets/profile-header.svg" alt="Dihan Wang profile header" width="100%">
 </div>
 
 <p align="center">
-  <img alt="Robotics" src="https://img.shields.io/badge/Robotics-111827?style=for-the-badge">
-  <img alt="Embodied AI" src="https://img.shields.io/badge/Embodied%20AI-b45309?style=for-the-badge">
-  <img alt="Perception Pipelines" src="https://img.shields.io/badge/Perception%20Pipelines-0f766e?style=for-the-badge">
-  <img alt="Public repositories" src="https://img.shields.io/badge/Public%20Repos-19-334155?style=for-the-badge">
+  <img alt="Robotics" src="https://img.shields.io/badge/Robotics-0f172a?style=for-the-badge">
+  <img alt="Embodied AI" src="https://img.shields.io/badge/Embodied%20AI-7c2d12?style=for-the-badge">
+  <img alt="Perception" src="https://img.shields.io/badge/Perception-0f766e?style=for-the-badge">
+  <img alt="Robot Control" src="https://img.shields.io/badge/Robot%20Control-1d4ed8?style=for-the-badge">
 </p>
 
 <p align="center">
-  I build practical robotics software that turns scene data into annotations, detections, robot actions, and reproducible experiments.
+  Practical robotics software for perception data, robot control, repeatable experiments, and embodied AI workflows.
 </p>
 
 ---
 
-## Signal
+## Profile Signal
+
+This profile is curated as a ranked portfolio, not a complete repository index. The order favors personal contribution, project completeness, public usefulness, and fit with robotics/perception work.
 
 <table>
   <tr>
-    <td width="42%" valign="top">
-      <b>Core direction</b><br>
-      Robot automation, OpenArm control, perception datasets, and embodied AI pipelines.
+    <td width="34%" valign="top">
+      <b>Direction</b><br>
+      Robotics systems, embodied AI, robot control, perception pipelines.
     </td>
-    <td width="28%" valign="top">
-      <b>Main stack</b><br>
-      Python · C++ · ROS · Linux
+    <td width="33%" valign="top">
+      <b>Stack</b><br>
+      Python / C++ / ROS / Linux / OpenCV / PyTorch.
     </td>
-    <td width="30%" valign="top">
-      <b>Public profile</b><br>
-      Curated around owned work first; forks and references stay secondary.
+    <td width="33%" valign="top">
+      <b>Public shape</b><br>
+      Strong owned work first; forks, references, and temporary experiments stay secondary.
     </td>
   </tr>
 </table>
 
-## Selected Work
-
-Ordered by personal contribution, completeness, public impact signals, and fit with my current robotics/perception direction.
+## Impact-Ranked Work
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h3>01 / <a href="https://github.com/PINKCONCRETE/YOLO26-Tools">YOLO26-Tools</a></h3>
-      <p>VLM-assisted object detection, GroundingDINO workflows, COCO dataset generation, and YOLO fine-tuning.</p>
+    <td width="55%" valign="top">
+      <h3>01. <a href="https://github.com/PINKCONCRETE/YOLO26-Tools">YOLO26-Tools</a></h3>
+      <p><b>Perception pipeline and dataset engine.</b></p>
+      <p>VLM-assisted object detection, GroundingDINO workflows, COCO dataset generation, and YOLO fine-tuning utilities.</p>
       <p><code>computer-vision</code> <code>object-detection</code> <code>dataset-generation</code></p>
     </td>
-    <td width="42%" valign="top">
-      <h3>02 / <a href="https://github.com/PINKCONCRETE/RoboAutoTask">RoboAutoTask</a></h3>
-      <p>Python automation framework for repeatable robotic task execution and collection workflows.</p>
+    <td width="45%" valign="top">
+      <h3>02. <a href="https://github.com/PINKCONCRETE/RoboAutoTask">RoboAutoTask</a></h3>
+      <p><b>Robot task automation layer.</b></p>
+      <p>Python automation framework for repeatable robotic task execution, data collection, and experiment workflows.</p>
       <p><code>robotics</code> <code>automation</code> <code>task-planning</code></p>
     </td>
   </tr>
   <tr>
-    <td width="42%" valign="top">
-      <h3>03 / <a href="https://github.com/PINKCONCRETE/openarm">openarm</a></h3>
-      <p>C++ control and integration workspace around OpenArm manipulation.</p>
+    <td width="45%" valign="top">
+      <h3>03. <a href="https://github.com/PINKCONCRETE/openarm">openarm</a></h3>
+      <p><b>Manipulator control workspace.</b></p>
+      <p>C++ control and integration work around OpenArm manipulation.</p>
       <p><code>cpp</code> <code>robot-control</code> <code>manipulator</code></p>
     </td>
-    <td width="58%" valign="top">
-      <h3>04 / <a href="https://github.com/PINKCONCRETE/openarm_eepose">openarm_eepose</a></h3>
-      <p>End-effector pose tools and OpenArm experiments that connect control logic with practical pose workflows.</p>
+    <td width="55%" valign="top">
+      <h3>04. <a href="https://github.com/PINKCONCRETE/openarm_eepose">openarm_eepose</a></h3>
+      <p><b>Pose workflow experiments.</b></p>
+      <p>End-effector pose tools that connect control logic with practical OpenArm pose workflows.</p>
       <p><code>pose-control</code> <code>python</code> <code>openarm</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>05 / <a href="https://github.com/PINKCONCRETE/SceneAnnotation">SceneAnnotation</a></h3>
+      <h3>05. <a href="https://github.com/PINKCONCRETE/SceneAnnotation">SceneAnnotation</a></h3>
+      <p><b>Annotation infrastructure.</b></p>
       <p>Scene annotation utilities for robotics and computer vision datasets.</p>
       <p><code>annotation</code> <code>dataset</code> <code>robotics</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>06 / <a href="https://github.com/PINKCONCRETE/robocoin-pipeline">robocoin-pipeline</a></h3>
+      <h3>06. <a href="https://github.com/PINKCONCRETE/robocoin-pipeline">robocoin-pipeline</a></h3>
+      <p><b>System pipeline experiments.</b></p>
       <p>Pipeline-level robotics experiments for perception, planning, automation, and execution flow.</p>
       <p><code>pipeline</code> <code>embodied-ai</code> <code>automation</code></p>
     </td>
   </tr>
 </table>
 
-## Portfolio Map
+## Work Map
 
 | Robotics systems | Perception and data | Research and experiments |
 | --- | --- | --- |
@@ -86,7 +92,7 @@ Ordered by personal contribution, completeness, public impact signals, and fit w
 ## Working Stack
 
 <p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-robotics%20automation-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-automation%20and%20data-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-control%20integration-00599C?style=flat-square&logo=cplusplus&logoColor=white">
   <img alt="ROS" src="https://img.shields.io/badge/ROS-robot%20middleware-22314E?style=flat-square&logo=ros&logoColor=white">
   <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-perception-5C3EE8?style=flat-square&logo=opencv&logoColor=white">
@@ -96,10 +102,10 @@ Ordered by personal contribution, completeness, public impact signals, and fit w
 
 ## GitHub Activity
 
-Public activity is summarized without external stat cards to keep the profile stable:
+Dynamic activity cards were removed to avoid unreliable rendering. Current public summary:
 
-`19 public repositories` · `6 curated profile pins` · `primary languages: Python / C++` · `focus: robotics + perception`
+`19 public repositories` / `6 curated profile pins` / `primary languages: Python and C++` / `focus: robotics and perception`
 
 ## Current Direction
 
-I am tightening my public repositories around robotics infrastructure, perception data pipelines, and embodied AI experiments. Each visible project should quickly answer three questions: what it does, how to run it, and why it matters.
+I am tightening my public repositories around robotics infrastructure, perception data pipelines, and embodied AI experiments. Each visible project should quickly answer what it does, how to run it, and why it matters.
