@@ -1,35 +1,39 @@
-<img src="./assets/profile-header.svg" width="100%" alt="Dihan Wang / PINKCONCRETE — Robotics, embodied AI, perception and sensing">
+# Dihan Wang
 
-My current focus is embodied intelligence: VLA, WAM, and DEX. I build robotics pipelines, perception tools, and sensing systems.
+**Embodied intelligence · Robotics · Perception**  
+<sub>PINKCONCRETE</sub>
 
-### Selected research & systems
+I work on embodied intelligence, with a current focus on **VLA, WAM, and dexterous manipulation**. My work spans robotics data pipelines, perception tooling, and sensing systems—connecting the data we collect with the actions robots take.
 
-<table>
-<tr>
-<td width="50%"><a href="https://github.com/PINKCONCRETE/robocoin-pipeline"><img src="./assets/project-01.svg" width="100%" alt="robocoin-pipeline: Embodied intelligence. Perception, planning and execution connected through robotics pipelines."></a></td>
-<td width="50%"><a href="https://github.com/PINKCONCRETE/Millimeter-wave-Respiratory-and-Heart-Rate-Monitoring-Device"><img src="./assets/project-02.svg" width="100%" alt="Millimeter-wave: Non-contact sensing. Respiratory and heart-rate monitoring. Signal processing meets a desktop dashboard."></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/PINKCONCRETE/RoboAutoTask"><img src="./assets/project-03.svg" width="100%" alt="RoboAutoTask: Task automation. Repeatable robotic tasks, data collection and experiment workflows."></a></td>
-<td width="50%"><a href="https://github.com/PINKCONCRETE/SceneAnnotation"><img src="./assets/project-04.svg" width="100%" alt="SceneAnnotation: Scene data tooling. Annotation utilities for robotics and computer vision datasets."></a></td>
-</tr>
-</table>
+<br>
+
+## Research & work
+
+**Embodied intelligence**  
+Exploring VLA, WAM, and dexterous manipulation, with an interest in how robots connect perception and action in the physical world.
+
+**Robotics data & pipelines**  
+Working on data collection, scene annotation, and processing workflows for robotics. Building tools that make experiments repeatable and datasets easier to inspect and reuse.  
+[**RoboCOIN — project page ↗**](https://flagopen.github.io/RoboCOIN/)
+
+**Non-contact sensing**  
+Developed a millimeter-wave respiratory and heart-rate monitoring system as a graduation project, combining Python signal processing with a Vue/Electron dashboard.
+
+<br>
+
+## Technical background
+
+Python · C++ · ROS · Linux  
+OpenCV · PyTorch · Vue · Electron
+
+<br>
 
 <details>
-<summary>Project index / text descriptions</summary>
-
-- [robocoin-pipeline](https://github.com/PINKCONCRETE/robocoin-pipeline) — Perception, planning and execution connected through robotics pipelines.
-- [Millimeter-wave](https://github.com/PINKCONCRETE/Millimeter-wave-Respiratory-and-Heart-Rate-Monitoring-Device) — Respiratory and heart-rate monitoring. Signal processing meets a desktop dashboard.
-- [RoboAutoTask](https://github.com/PINKCONCRETE/RoboAutoTask) — Repeatable robotic tasks, data collection and experiment workflows.
-- [SceneAnnotation](https://github.com/PINKCONCRETE/SceneAnnotation) — Annotation utilities for robotics and computer vision datasets.
-
+<summary>Open-source activity</summary>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg">
+  <img src="./assets/activity-light.svg" width="100%" alt="Public GitHub contributions, shown as an animated calendar.">
+</picture>
 </details>
-
-<img src="./assets/toolchain.svg" width="100%" alt="Python, C++, ROS, Linux, OpenCV, PyTorch, Vue, Electron">
-
-<img src="./assets/activity.svg" width="100%" alt="Real GitHub contribution calendar, with an animated reveal and scan. Updated daily by GitHub Actions once enabled.">
-
-**Current focus** — Embodied intelligence / VLA · WAM · DEX
-
----
-<sub>DIHAN WANG / PINKCONCRETE · [All repositories ↗](https://github.com/PINKCONCRETE?tab=repositories)</sub>

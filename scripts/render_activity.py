@@ -19,3 +19,8 @@ for i,c in enumerate(colors):b+=f'<rect x="{699+i*16}" y="235" width="11" height
 b+=t(788,244,'More',9)+t(863,244,'UPDATED '+str(end),8)
 style='text{font-family:Menlo,Consolas,monospace}.cell{animation:appear 12s ease infinite}.sweep{animation:scan 12s linear infinite}@keyframes appear{0%,3%{opacity:.18}25%,100%{opacity:1}}@keyframes scan{from{transform:translateX(0)}to{transform:translateX(850px)}}@media(prefers-reduced-motion:reduce){.cell,.sweep{animation:none}.sweep{display:none}}'
 (p/'assets/activity.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="GitHub contribution calendar"><title>Real GitHub contributions — animated reveal</title><style>{style}</style>{b}</svg>')
+
+source=(p/'assets/activity.svg').read_text()
+for dark,light in {'#101315':'#ffffff','#303637':'#d8dee4','#89918e':'#57606a','#e6e7e3':'#24292f','#202729':'#ebedf0','#3f5049':'#d0dcc7','#607760':'#a8be98','#91a77e':'#779561','#c2d7a4':'#486b38'}.items():
+ source=source.replace(dark,light)
+(p/'assets/activity-light.svg').write_text(source)
